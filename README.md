@@ -5,13 +5,13 @@ Browse through all the folders for breakdown relating to those tools or cloud pr
 	
 
 ## Pages:
-	- [Ansible](ansible/ansible-notes.md)
-	- [AWS-Notes](aws-notes/aws-notes.md)
-	- [Azure-notes](azure-notes/azure-notes.md)
-	- [GCP-notes](gcp-notes/gcp-notes.md)
-	- [Jenkins](jenkins/jenkins.md)
-	- [Kubernetes](kubernetes/k8s-notes.md)
-	- [More](more/general-notes.md)
+- [Ansible](ansible/ansible-notes.md)
+- [AWS-Notes](aws-notes/aws-notes.md)
+- [Azure-notes](azure-notes/azure-notes.md)
+- [GCP-notes](gcp-notes/gcp-notes.md)
+- [Jenkins](jenkins/jenkins.md)
+- [Kubernetes](kubernetes/k8s-notes.md)
+- [More](more/general-notes.md)
 
 
 <!-- Table -->
@@ -22,7 +22,7 @@ Browse through all the folders for breakdown relating to those tools or cloud pr
 
 
 <!-- bold here -->
-__for my personal use and informational purposes__ 
+__*for my personal use and informational purposes__ 
 
 
 ```bash
