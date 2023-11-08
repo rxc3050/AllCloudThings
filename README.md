@@ -1,9 +1,10 @@
 # cloud-notes
 
-Random Collection of Links/Bookmarks for learning all things cloud
+Collection of Links/Bookmarks for learning all things cloud
+Browse through all the folders for breakdown relating to those tools or cloud providers
+	
 
-- Browse through all the folders for breakdown relating to those tools or cloud providers
-	## Pages:
+## Pages:
 	- [Ansible](ansible/ansible-notes.md)
 	- [AWS-Notes](aws-notes/aws-notes.md)
 	- [Azure-notes](azure-notes/azure-notes.md)
@@ -12,10 +13,6 @@ Random Collection of Links/Bookmarks for learning all things cloud
 	- [Kubernetes](kubernetes/k8s-notes.md)
 	- [More](more/general-notes.md)
 
-<!-- Task -->
-
-<!-- Italic -->
-<!-- Bold -->
 
 <!-- Table -->
 
@@ -23,13 +20,11 @@ Random Collection of Links/Bookmarks for learning all things cloud
 | ------- | -------- | -------- | ----------- |  
 
 
-<!--italic-->
-*page*
 
 <!-- bold here -->
-__for my personal use__ 
+__for my personal use and informational purposes__ 
 
 
 ```bash
-                     End-of-File
+                                     End-of-File
 ``` 
