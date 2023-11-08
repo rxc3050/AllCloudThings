@@ -1,6 +1,11 @@
-observability.md
-
 # Observability & Monitoring
+
+- Observability 
+	```
+		Collection --> Monitoring --> Analyze
+	``` 
+
+## Observability & Monitoring
 ```
 Observability & Monitoring
 --------------------------
@@ -40,11 +45,6 @@ cross defined thresholds. This allows rapid awareness of problems so
 corrective action can be taken. Alerts are triggered by monitoring systems 
 based on log, metric, and tracing data.
 ```
-
-- Observability 
-	```
-		Collection --> Monitoring --> Analyze
-	``` 
 
 
 ## Logs vs Metrics vs Traces
