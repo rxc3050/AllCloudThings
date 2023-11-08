@@ -41,6 +41,12 @@ corrective action can be taken. Alerts are triggered by monitoring systems
 based on log, metric, and tracing data.
 ```
 
+- Observability 
+	```
+		Collection --> Monitoring --> Analyze
+	``` 
+
+
 ## Logs vs Metrics vs Traces
 
 ```text

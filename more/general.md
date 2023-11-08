@@ -33,3 +33,7 @@ general-notes.md
 # Userful Links for reference and quick update
 
 - [Microsoft-Enginerring-Playbook](https://microsoft.github.io/code-with-engineering-playbook/observability/diagnostic-tools/)
+
+- [saas-iam-security-tools](https://secure.wphackedhelp.com/blog/saas-security-tools/)
+
+- [cybersecurity-tools]https://brainstation.io/career-guides/what-tools-do-cybersecurity-analysts-use#:~:text=Cybersecurity%20Analysts%20use%20a%20variety,intrusion%20detection%2C%20and%20packet%20sniffers.

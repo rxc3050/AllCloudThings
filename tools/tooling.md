@@ -36,19 +36,21 @@ This is a collection of useful tools within software engineering/devops/cloud sp
 - CloudTrace(GCP)
 - CloudLogging(GCP)
 - Elasticsearch
+- OpenSearch
 - ELK stack
-	- Elasticsearch
-	- logstack
-	- kibana
+	- Elasticsearch or OpenSearch(Elasticsearch is a distributed search and analytics engine)
+	- logstack(logging tool)
+	- kibana(data visualization)
 
 
 ### Security/Cybersecurity
 - SAAS
 	- Qualys
 	- SentinelOne
-	- CyberArk 
+	- CyberArk
+
 - Tooling
-	-  NMAP
+	- NMAP
 	- Wireshark 
 	- Metasploit 
 	- Aircrack 
@@ -58,7 +60,33 @@ This is a collection of useful tools within software engineering/devops/cloud sp
 	- Snort
 	- Intruder
 	- Kali Linux
+	- Cain and Abel
+	- Forcepoint
+	- Nikto
+	- Tcpdump
+	- KisMAC
+	- NetStumbler
 
+### IAM 
+- Microsoft Azure Active Directory
+- Okta Identity Management
+- Auth0 Identity and Access Management
+- OneLogin Identity and Access Management
+- Bitglass Cloud Security
+- CipherCloud Cloud Security
+- Skyhigh Networks Cloud Security
+- Symantec Cloud Security.
+
+
+### More Tools
+- PingID
+- Zscaler
+- TOPIA
+- Rubrik
+- Orca Security
+- CloudFlare
+- Intruder
+- Astra Security
 
 
 
