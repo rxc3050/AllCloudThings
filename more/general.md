@@ -24,3 +24,6 @@ general-notes.md
 	- update files as needed. 
 	- 
 
+# Userful Links for reference and quick update
+
+- [Microsoft-Enginerring-Playbook](https://microsoft.github.io/code-with-engineering-playbook/observability/diagnostic-tools/)
