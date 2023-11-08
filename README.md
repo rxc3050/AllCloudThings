@@ -6,10 +6,11 @@ Browse through all the folders for breakdown relating to those tools or cloud pr
 
 ## Pages:
 - [infra-as-code](infra-as-code/)
-- [AWS-Notes](aws-notes/aws-notes.md)
-- [Azure-notes](azure-notes/azure-notes.md)
-- [GCP-notes](gcp-notes/gcp-notes.md)
-- [Jenkins](jenkins/jenkins.md)
+- [cloud-providers]
+	- [AWS-Notes](cloud-providers/aws-notes/aws-notes.md)
+	- [Azure-notes](cloud-providers/azure-notes/azure-notes.md)
+	- [GCP-notes](cloud-providers/gcp-notes/gcp-notes.md)
+- [CI-CD](ci-cd/jenkins.md)
 - [Kubernetes](kubernetes/k8s-notes.md)
 - [Observability](more/observability.md)
 - [Tooling](tools/tooling.md)
