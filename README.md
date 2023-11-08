@@ -6,7 +6,12 @@ Random Collection of Links/Bookmarks for learning all things cloud
 - More
 
 
+
+
 <!-- Task -->
+
+## Pages:
+- [Kubernetes](kubernetes/k8s-notes.md)
 
 
 <!-- Italic -->

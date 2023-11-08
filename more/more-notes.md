@@ -2,6 +2,14 @@ more-notes.md
 
 
 
+<!-- Tasks -->
+
+* [x] Task 1
+* [x] Task 2
+* [] Task 3 
+
+
+
 <!-- Sample Table  -->
 | Name    | Link     | Category | Description |
 | ------- | -------- | -------- | ----------- |  
