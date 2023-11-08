@@ -11,6 +11,7 @@ Browse through all the folders for breakdown relating to those tools or cloud pr
 - [GCP-notes](gcp-notes/gcp-notes.md)
 - [Jenkins](jenkins/jenkins.md)
 - [Kubernetes](kubernetes/k8s-notes.md)
+- [Observability](more/obersvability.md)
 - [More](more/general-notes.md)
 
 
