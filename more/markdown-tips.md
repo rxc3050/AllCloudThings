@@ -1,14 +1,4 @@
-more-notes.md
-
-
-
-<!-- Tasks -->
-
-* [x] Task 1
-* [x] Task 2
-* [] Task 3 
-
-
+# Markdown-Tips
 
 <!-- Sample Table  -->
 | Name    | Link     | Category | Description |
@@ -18,6 +8,12 @@ more-notes.md
 | All Models | [huggingface](https://huggingface.co/models)| Models  | Models available at HuggingFace |  
 
 
+
+!-- Tasks -->
+
+- task list
+* [] Task1
+* [] Task2
 
 <!-- Task -->
 
@@ -44,5 +40,5 @@ ___for my personal use___
 
 
 ```bash
-                     End-of-File
+                                             End-of-File
 ``` 
