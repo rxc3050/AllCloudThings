@@ -6,7 +6,7 @@ Browse through all the folders for breakdown relating to those tools or cloud pr
 
 ## Pages:
 - [infra-as-code](infra-as-code/)
-- [cloud-providers]
+- [cloud-providers](cloud-providers/)
 	- [AWS-Notes](cloud-providers/aws-notes/aws-notes.md)
 	- [Azure-notes](cloud-providers/azure-notes/azure-notes.md)
 	- [GCP-notes](cloud-providers/gcp-notes/gcp-notes.md)
