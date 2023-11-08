@@ -1,6 +1,6 @@
 general-notes.md
 
-
+## List of things to do and general notes for this repo
 <!-- Tasks -->
 
 - To-Do/updates
@@ -13,6 +13,10 @@ general-notes.md
 * [] k8s
 * [] more 
 	* [x] Observability
+	* [] terraform
+	* [] markdown-tips
+
+
 * [] main-readme
 
 
