@@ -5,16 +5,22 @@ general-notes.md
 
 - To-Do/updates
 
-* [] Ansible-notes
-* [] aws-notes
-* [] azure-notes
-* [] gcp-notes
-* [] jenkins
+* [] infra-as-code
+	* [] terraform
+* [] Cloud-providers
+	* [] aws-notes
+	* [] azure-notes
+	* [] gcp-notes
+* [] CI-CD
+	* [] jenkins
 * [] k8s
 * [] more 
-	* [x] Observability
-	* [] terraform
 	* [] markdown-tips
+* [x] Observability
+* [] Tooling
+	* [x] Tooling	
+	
+	
 
 
 * [] main-readme

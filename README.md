@@ -12,9 +12,8 @@ Browse through all the folders for breakdown relating to those tools or cloud pr
 	- [GCP-notes](cloud-providers/gcp-notes/gcp-notes.md)
 - [CI-CD](ci-cd/jenkins.md)
 - [Kubernetes](kubernetes/k8s-notes.md)
-- [Observability](more/observability.md)
+- [Observability](observability/observability.md)
 - [Tooling](tools/tooling.md)
-- [More](more/general-notes.md)
 
 
 
@@ -30,5 +29,5 @@ __*for my personal use and informational purposes__
 
 
 ```bash
-                                              End-of-File
+                                           End-of-File
 ``` 
