@@ -5,14 +5,16 @@ Browse through all the folders for breakdown relating to those tools or cloud pr
 	
 
 ## Pages:
-- [Ansible](ansible/ansible-notes.md)
+- [infra-as-code](infra-as-code/)
 - [AWS-Notes](aws-notes/aws-notes.md)
 - [Azure-notes](azure-notes/azure-notes.md)
 - [GCP-notes](gcp-notes/gcp-notes.md)
 - [Jenkins](jenkins/jenkins.md)
 - [Kubernetes](kubernetes/k8s-notes.md)
 - [Observability](more/observability.md)
+- [Tooling](tools/tooling.md)
 - [More](more/general-notes.md)
+
 
 
 <!-- Table -->
@@ -27,5 +29,5 @@ __*for my personal use and informational purposes__
 
 
 ```bash
-                                     End-of-File
+                                              End-of-File
 ``` 
