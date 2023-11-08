@@ -1,7 +1,7 @@
 # cloud-notes
 
-Collection of Links/Bookmarks for learning all things cloud
-\Browse through all the folders for breakdown relating to those tools or cloud providers
+Collection of Links/Bookmarks for learning all things cloud\
+Browse through all the folders for breakdown relating to those tools or cloud providers
 	
 
 ## Pages:
