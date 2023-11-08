@@ -140,7 +140,7 @@ verbosity and contents of log output.
 
 ## Userful Links
 - Observability-Tools
-	- [tooling](.tools/tooling.md)
+	- [tooling](..tools/tooling.md)
 - log-level hierarchy
 	- [log-levels](https://sematext.com/blog/logging-levels/#:~:text=You%20can%20expect%20the%20TRACE,with%20parameters%20in%20your%20code.&text=INFO%20%E2%80%93%20the%20standard%20log%20level,entered%20a%20certain%20state%2C%20etc.)
 
