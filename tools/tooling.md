@@ -67,6 +67,21 @@ This is a collection of useful tools within software engineering/devops/cloud sp
 	- KisMAC
 	- NetStumbler
 
+- Secure Web gateway(SWG)	
+
+- Multi-Factor Authentication(MFA)
+
+- Endpoint Detection and Response (EDR)
+- Privleged Access Management (PAM)
+- Anti-Malware Tools
+- Email Security 
+- Remote Browser Isolation
+- Biometric Identity 
+- Endpoint Protection Platform 
+- User & Entity behaviour analytics
+ 
+
+
 ### IAM 
 - Microsoft Azure Active Directory
 - Okta Identity Management
