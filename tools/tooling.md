@@ -41,6 +41,7 @@ This is a collection of useful tools within software engineering/devops/cloud sp
 	- Elasticsearch or OpenSearch(Elasticsearch is a distributed search and analytics engine)
 	- logstack(logging tool)
 	- kibana(data visualization)
+- [OtelBin](https://www.otelbin.io/)	
 
 
 ### Security/Cybersecurity
