@@ -1,7 +1,7 @@
 site_name: AllCloudThings
 
 nav: 
-  # - Home: index.md
+  - Home: index.md
   - Cloud-Computing: cloud-computing.md 
 
 # AWS Related Docs 

@@ -1,1 +1,0 @@
-gcp-notes.md
