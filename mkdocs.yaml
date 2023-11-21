@@ -1,0 +1,45 @@
+site_name: AllCloudThings
+
+nav: 
+  # - Home: index.md
+  - Cloud-Computing: cloud-computing.md 
+
+# AWS Related Docs 
+  - Learn-aws: 
+    - AWS-Interview-Prep: learn-aws/aws-interview-prep.md
+    - AWS-Services: learn-aws/aws-services.md  
+
+
+  - Learn-GCP:
+    - GCP-Interview-Prep: learn-gcp/gcp-interview-prep.md
+    - GCP-Services: learn-gcp/gcp-services.md
+
+# # Azure Related Docs 
+#   - Learn-Azure:
+#     - Azure-Interview-Prep: learn-azure/azure-interview-prep.md
+#     - Azure-Services: learn-azure/azure-services.md  
+
+# CI-CD || Observability || Security || Tools 
+  - More: 
+    # - CI-CD: 
+    #   - Jenkins: More/ci-cd/what-is-jenkins.md
+    - Observability:
+      - What is Observability:  More/observability/what-is-observability.md 
+    # - Security:
+    #   - Cybersecurity: What-is-cybersecurity.md
+    #   - Cybersecurity-tools: Cybersecurity-tools.md  
+    - Tools:
+      - List-of-Tools: More/Tools/List-of-Useful-Tools-Services.md  
+
+# # Infra-As-Code Tools and More
+#   - Infra-as-Code:
+#       - Infra-as-Code: infra-as-code/infra-as-code.md
+
+# # Everything about Containers here
+#   - Containers:
+#     - Kubernetes: Containers/Kubernetes/what-is-kubernetes.md
+#     - Docker: Containers/Docker
+
+themes: Material
+favicon: /img/favicon.ico
+
