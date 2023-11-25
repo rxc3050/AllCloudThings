@@ -7,7 +7,7 @@ nav:
 # #Cloud-Providers
 # AWS Related Docs 
   - Learn-aws: 
-    - AWS-Interview-Prep: cloud-notes/cloud-providers/learn-aws/aws-interview-prep.md
+    - AWS-Interview-Prep: cloud-providers/learn-aws/aws-interview-prep.md
     - AWS-Services: cloud-providers/learn-aws/aws-services.md  
 
 
@@ -18,9 +18,9 @@ nav:
 
 
 # # Azure Related Docs 
-#   - Learn-Azure:
-#     - Azure-Interview-Prep: cloud-providers/learn-azure/azure-interview-prep.md
-#     - Azure-Services: cloud-providers/learn-azure/azure-services.md  
+  - Learn-Azure:
+    - Azure-Interview-Prep: cloud-providers/learn-azure/azure-interview-prep.md
+    - Azure-Services: cloud-providers/learn-azure/azure-services.md  
 
 
 # CI-CD || Observability || Security || Tools 
@@ -28,12 +28,12 @@ nav:
     # - CI-CD: 
     #   - Jenkins: More/ci-cd/what-is-jenkins.md
     - Observability:
-      - What is Observability:  More/observability/what-is-observability.md 
+      - What is Observability:  more/observability/what-is-observability.md 
     # - Security:
     #   - Cybersecurity: What-is-cybersecurity.md
     #   - Cybersecurity-tools: Cybersecurity-tools.md  
     - Tools:
-      - List-of-Tools: More/Tools/List-of-Useful-Tools-Services.md  
+      - List-of-Tools: more/tools/List-of-Useful-Tools-Services.md  
 
 
 # # Infra-As-Code Tools and More
