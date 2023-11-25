@@ -7,7 +7,7 @@ nav:
 # #Cloud-Providers
 # AWS Related Docs 
   - Learn-aws: 
-    - AWS-Interview-Prep: cloud-providers/learn-aws/aws-interview-prep.md
+    - AWS-Interview-Prep: cloud-notes/cloud-providers/learn-aws/aws-interview-prep.md
     - AWS-Services: cloud-providers/learn-aws/aws-services.md  
 
 
