@@ -142,14 +142,14 @@ while the customer is responsible for securing their data and applications.
 ```
 
 ###### What are the advantages of using container orchestration platforms like Kubernetes?
- ```   
+```   
 Container orchestration platforms automate container deployment, 
 scaling, and management, providing benefits like high availability, 
 resource optimization, and simplified application scaling.
 ```
 
 ###### Can you explain how cloud-native development differs from traditional application development?
- ```   
+```   
 Cloud-native development involves designing applications specifically 
 for cloud environments, focusing on microservices, serverless architecture, 
 and containerization for flexibility and scalability.
