@@ -56,6 +56,9 @@ nav:
 # theme: material
 # site_favicon: favicon.ico
 
+theme: lux
+site_favicon: favicon.ico
+
 theme: darkly
 site_favicon: favicon.ico
 
