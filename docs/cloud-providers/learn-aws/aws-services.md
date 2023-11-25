@@ -1,7 +1,7 @@
 # List of AWS Services
 
 
-### Amazon EC2 (Elastic Compute Cloud)
+#### **Amazon EC2 (Elastic Compute Cloud)**
 ```
 --
  Amazon EC2 is a web service that provides resizable compute capacity in the cloud. 
@@ -11,7 +11,7 @@ including hosting websites, running applications, and performing data processing
 ```
 ---
 
-### Amazon RDS (Relational Database Service)
+#### **Amazon RDS (Relational Database Service)**
 ```
 --
  Amazon RDS is a managed database service that simplifies database administration 
@@ -22,17 +22,17 @@ scalable compute and storage resources for your databases.
 ```
 ---
 
-### Amazon VPC (Virtual Private Cloud)
-
+#### **Amazon VPC (Virtual Private Cloud)**
+```
 --
  Amazon VPC allows you to create isolated network environments 
 within the AWS cloud. It enables you to define your own virtual network, 
 subnets, route tables, and security groups. VPCs provide network segmentation, security, 
 and control over network traffic flow, making them essential for hosting applications securely in AWS.
-
+```
 ---
 
-### Amazon S3 (Simple Storage Service)
+#### **Amazon S3 (Simple Storage Service)**
 ```
 --
  Amazon S3 is an object storage service for storing and 
@@ -42,7 +42,7 @@ website hosting, and serving as a backup repository.
 ```
 ---
 
-### Amazon Route 53
+#### **Amazon Route 53**
 ```
 --
  Amazon Route 53 is a scalable and highly available 
@@ -52,7 +52,7 @@ Route 53 ensures reliable and low-latency DNS resolution for your applications.
 ```
 ---
 
-### Amazon SNS (Simple Notification Service)
+#### **Amazon SNS (Simple Notification Service)**
 ```
 --
  Amazon SNS is a messaging service that enables you to 
@@ -62,7 +62,7 @@ users or applications about events, such as system alarms or updates.
 ```
 ---
 
-### AWS WAF (Web Application Firewall)
+#### **AWS WAF (Web Application Firewall)**
 ```
 --
  AWS WAF is a web application firewall service that protects 
@@ -72,7 +72,7 @@ incoming web traffic to your applications.
 ```
 ---
 
-######  **AWS Shield**
+####  **AWS Shield**
 ```
 --
  AWS Shield is a managed Distributed Denial of Service (DDoS) protection 
@@ -83,7 +83,7 @@ ensuring the availability of your applications.
 
 ---
 
-### AWS Key Management Service (KMS)
+#### AWS Key Management Service (KMS)
 ```
 AWS KMS is a managed encryption service that helps 
 you create and control encryption keys used to encrypt data. 
@@ -92,7 +92,7 @@ and decrypt data easily while maintaining control over the encryption keys.
 ```
 ---
 
-### AWS Secrets Manager
+#### AWS Secrets Manager
 ```
 --
  AWS Secrets Manager is a service for managing sensitive information, 
