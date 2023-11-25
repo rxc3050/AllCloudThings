@@ -1,1 +1,4 @@
-vagrant.md
+# Vagrant
+
+## Getting started with Vagrant
+
