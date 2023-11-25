@@ -1,5 +1,6 @@
 site_name: AllCloudThings
 
+## -------------------------------------------------#
 nav: 
   - Home: index.md
   # - Cloud-Computing: cloud-computing.md 
@@ -52,7 +53,12 @@ nav:
     - Tools:
       - List-of-Tools: more/tools/tooling.md  
 
+## -------------------------------------------------#
+
 ## Themes and favicon
+
+theme: dracula
+site_favicon: favicon.ico
 
 # theme: material
 # site_favicon: favicon.ico
@@ -66,10 +72,8 @@ nav:
 # theme: darkly
 # site_favicon: favicon.ico
 
-theme: dracula
-site_favicon: favicon.ico
-
-# Example code for theme
+## -------------------------------------------------#
+## Example code for theme
 # theme:
 #   name: mkdocs
 #   locale: en
@@ -77,6 +81,8 @@ site_favicon: favicon.ico
 #   static_templates:
 #     - sitemap.html
 #   include_sidebar: false
+
+## -------------------------------------------------#
 
 # Setting up the Favicon 
 # favicon: img/favicon.ico

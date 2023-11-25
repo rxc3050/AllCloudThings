@@ -18,9 +18,14 @@ Learning the tricks and tips of Cloud All-Cloud-Things
 
 ### Azure
 - [Learn-Azure](cloud-providers/learn-azure/azure-notes.md)
-- [Learn-Azure](cloud-providers/learn-azure/azure-interview-prep.md)
-- [Learn-Azure](cloud-providers/learn-azure/azure-services.md) 
+<!-- - [Learn-Azure](cloud-providers/learn-azure/azure-interview-prep.md)
+- [Learn-Azure](cloud-providers/learn-azure/azure-services.md)  -->
 
+
+------------------------------------------------------------------------
+# Containers
+- [Docker](containers/docker/what-is-docker.md)
+- [Kubernetes]( containers/kubernetes/what-is-kubernetes.md)
 
 ------------------------------------------------------------------------
 ## Infra-as-Code
@@ -34,21 +39,13 @@ Learning the tricks and tips of Cloud All-Cloud-Things
 ## CICD
 - [CICD](more/ci-cd/what-is-jenkins.md)
 
-
 ------------------------------------------------------------------------
 ## Observability
 - [What-is-Observability](more/observability/what-is-observability.md)
 
-
-------------------------------------------------------------------------
-# Containers
-- [Docker](containers/docker/what-is-docker.md)
-- [Kubernetes]( containers/kubernetes/what-is-kubernetes.md)
-
 ------------------------------------------------------------------------
 ## Security
 - [Cybersecurity](more/security/cybersecurity-notes.md)
-
 
 ------------------------------------------------------------------------   
 ## Tools
