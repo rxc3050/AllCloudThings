@@ -1,23 +1,23 @@
 site_name: AllCloudThings
 
 nav: 
-  - Home: index.md
+  # - Home: index.md
   - Cloud-Computing: cloud-computing.md 
 
 # AWS Related Docs 
   - Learn-aws: 
-    - AWS-Interview-Prep: learn-aws/aws-interview-prep.md
-    - AWS-Services: learn-aws/aws-services.md  
+    - AWS-Interview-Prep: cloud-providers/learn-aws/aws-interview-prep.md
+    - AWS-Services: cloud-providers/learn-aws/aws-services.md  
 
 
   - Learn-GCP:
-    - GCP-Interview-Prep: learn-gcp/gcp-interview-prep.md
-    - GCP-Services: learn-gcp/gcp-services.md
+    - GCP-Interview-Prep: cloud-providers/learn-gcp/gcp-interview-prep.md
+    - GCP-Services: cloud-providers/learn-gcp/gcp-services.md
 
 # # Azure Related Docs 
 #   - Learn-Azure:
-#     - Azure-Interview-Prep: learn-azure/azure-interview-prep.md
-#     - Azure-Services: learn-azure/azure-services.md  
+#     - Azure-Interview-Prep: cloud-providers/learn-azure/azure-interview-prep.md
+#     - Azure-Services: cloud-providers/learn-azure/azure-services.md  
 
 # CI-CD || Observability || Security || Tools 
   - More: 
