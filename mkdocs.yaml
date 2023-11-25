@@ -44,15 +44,30 @@ nav:
     - What is Observability:  more/observability/what-is-observability.md 
 
   - Security:
-    - Cybersecurity: more/cybersecurity/cybersecurity-notes.md
+    - Cybersecurity: more/security/cybersecurity-notes.md
     # - Cybersecurity: What-is-cybersecurity.md
     # - Cybersecurity-tools: Cybersecurity-tools.md  
 
     - Tools:
       - List-of-Tools: more/tools/tooling.md  
 
-# Theme and favicon
+# Themes and favicon
 
-theme: material
-favicon: img/favicon.ico
+# theme: material
+# site_favicon: favicon.ico
+
+theme: darkly
+site_favicon: favicon.ico
+
+# Example code for theme
+# theme:
+#   name: mkdocs
+#   locale: en
+#   custom_dir: my_theme_customizations/
+#   static_templates:
+#     - sitemap.html
+#   include_sidebar: false
+
+# Setting up the Favicon 
+# favicon: img/favicon.ico
 
