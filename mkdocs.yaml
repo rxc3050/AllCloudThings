@@ -19,34 +19,36 @@ nav:
 
 # # Azure Related Docs 
   - Learn-Azure:
-    - Azure-Interview-Prep: cloud-providers/learn-azure/azure-interview-prep.md
-    - Azure-Services: cloud-providers/learn-azure/azure-services.md  
-
-
-# CI-CD || Observability || Security || Tools 
-  - More: 
-    - CI-CD: 
-      - Jenkins: More/ci-cd/what-is-jenkins.md
-    - Observability:
-      - What is Observability:  more/observability/what-is-observability.md 
-    # - Security:
-    #   - Cybersecurity: What-is-cybersecurity.md
-    #   - Cybersecurity-tools: Cybersecurity-tools.md  
-    - Tools:
-      - List-of-Tools: more/tools/tooling.md  
-
+    - Azure-Notes: cloud-providers/learn-azure/azure-notes.md
+    # - Azure-Interview-Prep: cloud-providers/learn-azure/azure-interview-prep.md
+    # - Azure-Services: cloud-providers/learn-azure/azure-services.md  
 
 # Infra-As-Code Tools and More
   - Infra-as-Code:
       - Infra-as-Code: infra-as-code/infra-as-code.md
       - Ansible: infra-as-code/ansible.md
       - Pulumi: infra-as-code/pulumi.md
-      - Terraform: infra-as-code/terrform.md
+      - Terraform: infra-as-code/terraform.md
 
 # Everything about Containers here
   - Containers:
-    - Kubernetes: containers/Kubernetes/what-is-kubernetes.md
-    - Docker: containers/Docker/what-is-docker.md
+    - Kubernetes: containers/kubernetes/what-is-kubernetes.md
+    - Docker: containers/docker/what-is-docker.md
+
+
+# CI-CD || Observability || Security || Tools 
+  - More: 
+    - CI-CD: 
+      - Jenkins: more/ci-cd/what-is-jenkins.md
+    - Observability:
+      - What is Observability:  more/observability/what-is-observability.md 
+    - Security:
+      - Cybersecurity: more/cybersecurity/cybersecurity-notes.md
+      # - Cybersecurity: What-is-cybersecurity.md
+      # - Cybersecurity-tools: Cybersecurity-tools.md  
+    - Tools:
+      - List-of-Tools: more/tools/tooling.md  
+
 
 theme: material
 

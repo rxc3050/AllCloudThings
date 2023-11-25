@@ -16,18 +16,18 @@ Learning the tricks and tips of Cloud [All-Cloud-Things](#AllCloudThings).
 - [GCP-Interview-Prep](cloud-providers/learn-gcp/gcp-interview-prep.md)
 - [GCP-Services](cloud-providers/learn-gcp/gcp-services.md)
 
-
+<!-- 
 ## Azure
 - [Learn-Azure](cloud-providers/learn-azure/azure-interview-prep.md)
-- [Learn-Azure](cloud-providers/learn-azure/azure-services.md)
+- [Learn-Azure](cloud-providers/learn-azure/azure-services.md) -->
 
-## Infra-as-Code
+<!-- ## Infra-as-Code
 - [Terraform](infra-as-code/terraform.md)
 - [Ansible](infra-as-code/ansible.md)
 
 
 ## CICD
-- [CICD](more/ci-cd/what-is-jenkins.md)
+- [CICD](more/ci-cd/what-is-jenkins.md) -->
 
 
 ## Observability
