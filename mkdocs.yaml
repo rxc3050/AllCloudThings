@@ -51,13 +51,16 @@ nav:
     - Tools:
       - List-of-Tools: more/tools/tooling.md  
 
-# Themes and favicon
+## Themes and favicon
 
 # theme: material
 # site_favicon: favicon.ico
 
-theme: lux
+theme: Lux
 site_favicon: favicon.ico
+
+# theme: Pulse
+# site_favicon: favicon.ico
 
 # theme: darkly
 # site_favicon: favicon.ico
