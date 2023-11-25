@@ -1,34 +1,35 @@
 site_name: AllCloudThings
 
+## -------------------------------------------------#
 nav: 
   - Home: index.md
   # - Cloud-Computing: cloud-computing.md 
 
 # #Cloud-Providers
-# AWS Related Docs 
-  - Learn-aws: 
-    - AWS-Interview-Prep: cloud-providers/learn-aws/aws-interview-prep.md
-    - AWS-Services: cloud-providers/learn-aws/aws-services.md  
+  - Cloud-Providers:
 
+    # AWS Related Docs 
+    - Learn-aws: 
+      - AWS-Interview-Prep: cloud-providers/learn-aws/aws-interview-prep.md
+      - AWS-Services: cloud-providers/learn-aws/aws-services.md  
 
-# GCP Related Docs
-  - Learn-GCP:
-    - GCP-Interview-Prep: cloud-providers/learn-gcp/gcp-interview-prep.md
-    - GCP-Services: cloud-providers/learn-gcp/gcp-services.md
+    # GCP Related Docs
+    - Learn-GCP:
+      - GCP-Interview-Prep: cloud-providers/learn-gcp/gcp-interview-prep.md
+      - GCP-Services: cloud-providers/learn-gcp/gcp-services.md
 
-
-# # Azure Related Docs 
-  - Learn-Azure:
-    - Azure-Notes: cloud-providers/learn-azure/azure-notes.md
-    # - Azure-Interview-Prep: cloud-providers/learn-azure/azure-interview-prep.md
-    # - Azure-Services: cloud-providers/learn-azure/azure-services.md  
+    # # Azure Related Docs 
+    - Learn-Azure:
+      - Azure-Notes: cloud-providers/learn-azure/azure-notes.md
+      # - Azure-Interview-Prep: cloud-providers/learn-azure/azure-interview-prep.md
+      # - Azure-Services: cloud-providers/learn-azure/azure-services.md  
 
 # Infra-As-Code Tools and More
   - Infra-as-Code:
-      - Infra-as-Code: infra-as-code/infra-as-code.md
-      - Ansible: infra-as-code/ansible.md
-      - Pulumi: infra-as-code/pulumi.md
-      - Terraform: infra-as-code/terraform.md
+    - Infra-as-Code: infra-as-code/infra-as-code.md
+    - Ansible: infra-as-code/ansible.md
+    - Pulumi: infra-as-code/pulumi.md
+    - Terraform: infra-as-code/terraform.md
 
 # Everything about Containers here
   - Containers:
@@ -37,32 +38,42 @@ nav:
 
 
 # CI-CD || Observability || Security || Tools 
-  - CI-CD: 
-    - Jenkins: more/ci-cd/what-is-jenkins.md
+  - More: 
+    - CI-CD: 
+      - Jenkins: more/ci-cd/what-is-jenkins.md
 
-  - Observability:
-    - What is Observability:  more/observability/what-is-observability.md 
+    - Observability:
+      - What is Observability:  more/observability/what-is-observability.md 
 
-  - Security:
-    - Cybersecurity: more/security/cybersecurity-notes.md
-    # - Cybersecurity: What-is-cybersecurity.md
-    # - Cybersecurity-tools: Cybersecurity-tools.md  
+    - Security:
+      - Cybersecurity: more/security/cybersecurity-notes.md
+      # - Cybersecurity: What-is-cybersecurity.md
+      # - Cybersecurity-tools: Cybersecurity-tools.md  
 
     - Tools:
       - List-of-Tools: more/tools/tooling.md  
 
-# Themes and favicon
+## -------------------------------------------------#
+
+## Themes and favicon
+
+theme: dracula
+site_favicon: favicon.ico
 
 # theme: material
 # site_favicon: favicon.ico
 
-theme: lux
-site_favicon: favicon.ico
+# theme: lux
+# site_favicon: favicon.ico
+
+# theme: pulse
+# site_favicon: favicon.ico
 
 # theme: darkly
 # site_favicon: favicon.ico
 
-# Example code for theme
+## -------------------------------------------------#
+## Example code for theme
 # theme:
 #   name: mkdocs
 #   locale: en
@@ -70,6 +81,8 @@ site_favicon: favicon.ico
 #   static_templates:
 #     - sitemap.html
 #   include_sidebar: false
+
+## -------------------------------------------------#
 
 # Setting up the Favicon 
 # favicon: img/favicon.ico
