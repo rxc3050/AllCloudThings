@@ -1,4 +1,4 @@
-# Cloud Engineer Interview Questions and Answers
+## Google Cloud Platform (GCP) Services
 
 ###### What is the difference between public, private, and hybrid clouds?
 ```    
@@ -128,12 +128,14 @@ cost optimization, and disaster recovery options.
 
 
 ###### How does a content delivery network (CDN) improve the performance of web applications?
+
 ```    
 CDNs cache content at edge locations closer to end-users, reducing latency 
 and improving the speed and availability of web applications.
 ```
 
 ###### What is the shared responsibility model in cloud security?
+
 ```    
 The shared responsibility model defines the security responsibilities 
 between the cloud provider (e.g., AWS, Azure, GCP) and the customer. 

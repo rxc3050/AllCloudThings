@@ -1,4 +1,4 @@
-# Google Cloud Platform (GCP) Services
+## Google Cloud Platform (GCP) Services
 
 
 #### **Compute Engine**
@@ -55,7 +55,8 @@
 ```
  Google Cloud Functions is a serverless compute service that allows you to run event-driven functions without managing servers. You can trigger functions in response to various events, such as HTTP requests, changes in Cloud Storage, or Pub/Sub messages. Cloud Functions is designed for building serverless applications and microservices.
 ```
----
+
+
 
 #### **Cloud Vision AI**
 ```
