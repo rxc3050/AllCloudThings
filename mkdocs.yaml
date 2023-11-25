@@ -37,22 +37,22 @@ nav:
 
 
 # CI-CD || Observability || Security || Tools 
-    - CI-CD: 
-      - Jenkins: more/ci-cd/what-is-jenkins.md
+  - CI-CD: 
+    - Jenkins: more/ci-cd/what-is-jenkins.md
 
-    - Observability:
-      - What is Observability:  more/observability/what-is-observability.md 
+  - Observability:
+    - What is Observability:  more/observability/what-is-observability.md 
 
-    - Security:
-      - Cybersecurity: more/cybersecurity/cybersecurity-notes.md
-      # - Cybersecurity: What-is-cybersecurity.md
-      # - Cybersecurity-tools: Cybersecurity-tools.md  
-      
+  - Security:
+    - Cybersecurity: more/cybersecurity/cybersecurity-notes.md
+    # - Cybersecurity: What-is-cybersecurity.md
+    # - Cybersecurity-tools: Cybersecurity-tools.md  
+
     - Tools:
       - List-of-Tools: more/tools/tooling.md  
 
+# Theme and favicon
 
 theme: material
-
 favicon: img/favicon.ico
 
