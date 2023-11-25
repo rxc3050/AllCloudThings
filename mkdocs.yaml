@@ -5,23 +5,23 @@ nav:
   # - Cloud-Computing: cloud-computing.md 
 
 # #Cloud-Providers
-# AWS Related Docs 
-  - Learn-aws: 
-    - AWS-Interview-Prep: cloud-providers/learn-aws/aws-interview-prep.md
-    - AWS-Services: cloud-providers/learn-aws/aws-services.md  
 
+  - Cloud-Providers:
+    # AWS Related Docs 
+    - Learn-aws: 
+      - AWS-Interview-Prep: cloud-providers/learn-aws/aws-interview-prep.md
+      - AWS-Services: cloud-providers/learn-aws/aws-services.md  
 
-# GCP Related Docs
-  - Learn-GCP:
-    - GCP-Interview-Prep: cloud-providers/learn-gcp/gcp-interview-prep.md
-    - GCP-Services: cloud-providers/learn-gcp/gcp-services.md
+    # GCP Related Docs
+    - Learn-GCP:
+      - GCP-Interview-Prep: cloud-providers/learn-gcp/gcp-interview-prep.md
+      - GCP-Services: cloud-providers/learn-gcp/gcp-services.md
 
-
-# # Azure Related Docs 
-  - Learn-Azure:
-    - Azure-Notes: cloud-providers/learn-azure/azure-notes.md
-    # - Azure-Interview-Prep: cloud-providers/learn-azure/azure-interview-prep.md
-    # - Azure-Services: cloud-providers/learn-azure/azure-services.md  
+    # # Azure Related Docs 
+    - Learn-Azure:
+      - Azure-Notes: cloud-providers/learn-azure/azure-notes.md
+      # - Azure-Interview-Prep: cloud-providers/learn-azure/azure-interview-prep.md
+      # - Azure-Services: cloud-providers/learn-azure/azure-services.md  
 
 # Infra-As-Code Tools and More
   - Infra-as-Code:
