@@ -28,8 +28,8 @@ jobs:
           path: .cache
       
       - name: install dependencies for mkdocs
-        run: pip install mkdocs-material
-        run: pip install mkdocs-bootswatch
+        run: pip install mkdocs-material mkdocs-bootswatch
+        # run: pip install mkdocs-bootswatch
 
       - name: deploy command
         run: mkdocs gh-deploy --force
