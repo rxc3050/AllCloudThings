@@ -1,8 +1,7 @@
 # AllCloudThings
 
-Learning the tricks and tips of Cloud [All-Cloud-Things](#AllCloudThings).
-
-## Cloud Computing
+<!-- Learning the tricks and tips of Cloud [All-Cloud-Things](#AllCloudThings). -->
+Learning the tricks and tips of Cloud All-Cloud-Things
 
 [Cloud-Computing](cloud-computing.md)
 
