@@ -83,7 +83,7 @@ ensuring the availability of your applications.
 
 ---
 
-#### AWS Key Management Service (KMS)
+#### **AWS Key Management Service (KMS)**
 ```
 AWS KMS is a managed encryption service that helps 
 you create and control encryption keys used to encrypt data. 
@@ -92,7 +92,7 @@ and decrypt data easily while maintaining control over the encryption keys.
 ```
 ---
 
-#### AWS Secrets Manager
+#### **AWS Secrets Manager**
 ```
 --
  AWS Secrets Manager is a service for managing sensitive information, 
