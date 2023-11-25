@@ -56,10 +56,10 @@ nav:
 # theme: material
 # site_favicon: favicon.ico
 
-theme: Lux
+theme: lux
 site_favicon: favicon.ico
 
-# theme: Pulse
+# theme: pulse
 # site_favicon: favicon.ico
 
 # theme: darkly
