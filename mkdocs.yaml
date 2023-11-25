@@ -57,14 +57,17 @@ nav:
 # theme: material
 # site_favicon: favicon.ico
 
-theme: lux
-site_favicon: favicon.ico
+# theme: lux
+# site_favicon: favicon.ico
 
 # theme: pulse
 # site_favicon: favicon.ico
 
 # theme: darkly
 # site_favicon: favicon.ico
+
+theme: mkdocs-dracula-theme
+site_favicon: favicon.ico
 
 # Example code for theme
 # theme:
