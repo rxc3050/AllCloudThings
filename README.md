@@ -1,9 +1,9 @@
-# cloud-notes
+# All-cloud-Things
 
 Collection of Links/Bookmarks for learning all things cloud\
 Browse through all the folders for breakdown relating to those tools or cloud providers
 	
-
+<!-- 
 ## Pages:
 - [infra-as-code](infra-as-code/)
 - [cloud-providers](cloud-providers/)
@@ -13,14 +13,8 @@ Browse through all the folders for breakdown relating to those tools or cloud pr
 - [CI-CD](ci-cd/jenkins.md)
 - [Kubernetes](kubernetes/k8s-notes.md)
 - [Observability](observability/observability.md)
-- [Tooling](tools/tooling.md)
+- [Tooling](tools/tooling.md) -->
 
-
-
-<!-- Table -->
-
-| Name    | Link     | Category | Description |
-| ------- | -------- | -------- | ----------- |  
 
 
 
