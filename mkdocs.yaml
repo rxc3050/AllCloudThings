@@ -5,8 +5,8 @@ nav:
   # - Cloud-Computing: cloud-computing.md 
 
 # #Cloud-Providers
-
   - Cloud-Providers:
+
     # AWS Related Docs 
     - Learn-aws: 
       - AWS-Interview-Prep: cloud-providers/learn-aws/aws-interview-prep.md
@@ -25,10 +25,10 @@ nav:
 
 # Infra-As-Code Tools and More
   - Infra-as-Code:
-      - Infra-as-Code: infra-as-code/infra-as-code.md
-      - Ansible: infra-as-code/ansible.md
-      - Pulumi: infra-as-code/pulumi.md
-      - Terraform: infra-as-code/terraform.md
+    - Infra-as-Code: infra-as-code/infra-as-code.md
+    - Ansible: infra-as-code/ansible.md
+    - Pulumi: infra-as-code/pulumi.md
+    - Terraform: infra-as-code/terraform.md
 
 # Everything about Containers here
   - Containers:
@@ -37,7 +37,7 @@ nav:
 
 
 # CI-CD || Observability || Security || Tools 
-  -More: 
+  - More: 
     - CI-CD: 
       - Jenkins: more/ci-cd/what-is-jenkins.md
 
@@ -48,7 +48,7 @@ nav:
       - Cybersecurity: more/security/cybersecurity-notes.md
       # - Cybersecurity: What-is-cybersecurity.md
       # - Cybersecurity-tools: Cybersecurity-tools.md  
-      
+
     - Tools:
       - List-of-Tools: more/tools/tooling.md  
 
