@@ -1,4 +1,5 @@
-name: ci 
+name: deploy-cloud-notes 
+
 on:
   push:
     branches: 
@@ -10,15 +11,25 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      
+
+      - name: setup python
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - uses: actions/cache@v2
+      
+      - name: setup actions
+        uses: actions/cache@v2
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
-      # - run: pip install pillow cairosvg
-      - run: mkdocs gh-deploy --force
+      
+      - name: install dependencies for mkdocs
+        run: pip install mkdocs-material
+        # run: pip install pillow cairosvg
+
+      - name: deploy command
+        run: mkdocs gh-deploy --force

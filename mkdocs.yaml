@@ -45,6 +45,6 @@ nav:
 #     - Kubernetes: Containers/Kubernetes/what-is-kubernetes.md
 #     - Docker: Containers/Docker
 
-themes: Material
+theme: Material
 favicon: /img/favicon.ico
 
