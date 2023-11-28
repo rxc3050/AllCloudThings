@@ -34,6 +34,8 @@ nav:
 # Everything about Containers here
   - Containers:
     - Kubernetes: containers/kubernetes/what-is-kubernetes.md
+      - K8s-Overview: containers/kubernetes/what-is-kubernetes.md
+      - Frontend-app-example: containers/kubernetes/frontend-app-example.md
     - Docker: containers/docker/what-is-docker.md
 
 
