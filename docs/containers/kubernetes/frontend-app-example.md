@@ -1,5 +1,7 @@
 # K8s-App-Manifest-Code
 
+- Sample code for frontend app manifest file 
+
 ```YAML
 
 apiVersion: apps/v1
@@ -37,3 +39,12 @@ spec:
   type: ClusterIP  # Use 'ClusterIP' for internal access within the cluster
 
 ```
+
+- Deploy Command 
+    - ```yaml 
+        kubectl apply -f frontend-app.yaml
+
+- Steps to consider before deploy:
+  -  Make sure to have your Node.js application Docker image pushed to a container registry and specify the correct image name and tag in the manifest.   
+  
+        

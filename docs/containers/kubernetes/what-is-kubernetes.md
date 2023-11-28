@@ -73,7 +73,11 @@ Use network policies to control traffic between pods and secure your cluster.
 
 # Code Examples:
 
-- [app-deploy-file](kubernetes/k8s-app-manifest.md)
+- [frontend-app-example](kubernetes/frontend-app-example.md)
+- Deploy using following command:
+    - ```yaml 
+        kubectl apply -f frontend-app.yaml
+    ```
 
 ## Tips&Tricks
 
