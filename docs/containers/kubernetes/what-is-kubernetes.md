@@ -1,27 +1,27 @@
 # Kubernetes
-
+---------------------------------------------------------------------------
 Kubernetes Overview:
-1. Nodes:
 
+1. Nodes:
 Nodes are the individual machines (VMs or physical servers) in a Kubernetes cluster.
 Each node runs container runtime software (e.g., Docker) and communicates with the control plane.
 Nodes can be categorized as "worker nodes" responsible for running application workloads.
-2. Pods:
 
+2. Pods:
 Pods are the smallest deployable units in Kubernetes.
 They can contain one or more containers that share network and storage resources.
 Pods are scheduled onto nodes, and they can be replicated for scalability.
-3. Services:
 
+3. Services:
 Services define a network endpoint for a set of pods.
 They enable load balancing and provide a stable DNS name for accessing pods.
 There are different types of services, including ClusterIP, NodePort, and LoadBalancer, for various use cases.
-4. Controllers:
 
+4. Controllers:
 Controllers manage the desired state of pods and ensure that the actual state matches the desired state.
 Common controllers include ReplicaSets, Deployments, and StatefulSets.
 
-
+---------------------------------------------------------------------------
 ## Getting started with Kubernetes
 
 - Install 
@@ -70,7 +70,7 @@ Use network policies to control traffic between pods and secure your cluster.
 - Maintain clear and up-to-date documentation for your Kubernetes resources and configurations.
 - Collaborate with development and operations teams to ensure smooth application deployment and management.
 
-
+---------------------------------------------------------------------------
 # Code Examples:
 
 - [frontend-app-example](kubernetes/frontend-app-example.md)
@@ -79,6 +79,7 @@ Use network policies to control traffic between pods and secure your cluster.
         kubectl apply -f frontend-app.yaml
     ```
 
+---------------------------------------------------------------------------
 ## Tips&Tricks
 
 - 

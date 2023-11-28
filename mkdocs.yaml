@@ -35,6 +35,7 @@ nav:
   - Containers:
     - Kubernetes: 
       - K8s-Overview: containers/kubernetes/what-is-kubernetes.md
+      - k8s-cheat-sheet: containers/kubernetes/k8s-cheat-sheet.md
       - Frontend-app-example: containers/kubernetes/frontend-app-example.md
     - Docker: containers/docker/what-is-docker.md
 
