@@ -5,6 +5,9 @@ This is a collection of useful tools within software engineering/devops/cloud sp
 
 ## Tools
 
+### Learning Resources:
+- [Tutorials-Point-Devops](https://www.tutorialspoint.com/devops_tutorials.htm)
+
 ### Cloud-Providers
 - AWS
 - GCP
