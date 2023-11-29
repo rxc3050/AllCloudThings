@@ -48,6 +48,11 @@ Learning the tricks and tips of Cloud All-Cloud-Things
 - [Cybersecurity](more/security/cybersecurity-notes.md)
 
 ------------------------------------------------------------------------   
+
+## Learning-Resources:
+- [Learning-Resources](more/tools/tooling.md/#learning-resources)
+- [Devops-Tutorial-Point](https://www.tutorialspoint.com/devops_tutorials.htm)
+
 ## Tools
 - [List-of-Tools](more/tools/tooling.md)
       
