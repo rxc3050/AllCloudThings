@@ -17,6 +17,7 @@ nav:
     - Learn-GCP:
       - GCP-Interview-Prep: cloud-providers/learn-gcp/gcp-interview-prep.md
       - GCP-Services: cloud-providers/learn-gcp/gcp-services.md
+      - GCP-Offerings: cloud-providers/learn-gcp/services-in-gcp.md
 
     # # Azure Related Docs 
     - Learn-Azure:
@@ -60,14 +61,14 @@ nav:
 
 ## Themes and favicon
 
-theme: dracula
-site_favicon: favicon.ico
+# theme: dracula
+# site_favicon: favicon.ico
 
 # theme: material
 # site_favicon: favicon.ico
 
-# theme: lux
-# site_favicon: favicon.ico
+theme: lux
+site_favicon: favicon.ico
 
 # theme: pulse
 # site_favicon: favicon.ico
