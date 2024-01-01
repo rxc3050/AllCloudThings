@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../favicon.ico">
+        
+        <title>Cloud Computing Concepts. - AllCloudThings</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">AllCloudThings</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Cloud-Providers <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Learn-aws</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../cloud-providers/learn-aws/aws-interview-prep/" class="dropdown-item">AWS-Interview-Prep</a>
+</li>
+            
+<li>
+    <a href="../cloud-providers/learn-aws/aws-services/" class="dropdown-item">AWS-Services</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Learn-GCP</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../cloud-providers/learn-gcp/gcp-interview-prep/" class="dropdown-item">GCP-Interview-Prep</a>
+</li>
+            
+<li>
+    <a href="../cloud-providers/learn-gcp/gcp-services/" class="dropdown-item">GCP-Services</a>
+</li>
+            
+<li>
+    <a href="../cloud-providers/learn-gcp/services-in-gcp/" class="dropdown-item">GCP-Offerings</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Learn-Azure</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../cloud-providers/learn-azure/azure-notes/" class="dropdown-item">Azure-Notes</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Infra-as-Code <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../infra-as-code/infra-as-code.md" class="dropdown-item">Infra-as-Code</a>
+</li>
+                                    
+<li>
+    <a href="../infra-as-code/ansible/" class="dropdown-item">Ansible</a>
+</li>
+                                    
+<li>
+    <a href="../infra-as-code/pulumi/" class="dropdown-item">Pulumi</a>
+</li>
+                                    
+<li>
+    <a href="../infra-as-code/terraform/" class="dropdown-item">Terraform</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Containers <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Kubernetes</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../containers/kubernetes/what-is-kubernetes/" class="dropdown-item">K8s-Overview</a>
+</li>
+            
+<li>
+    <a href="../containers/kubernetes/k8s-cheat-sheet/" class="dropdown-item">k8s-cheat-sheet</a>
+</li>
+            
+<li>
+    <a href="../containers/kubernetes/frontend-app-example/" class="dropdown-item">Frontend-app-example</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../containers/docker/what-is-docker/" class="dropdown-item">Docker</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">CI-CD</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../more/ci-cd/what-is-jenkins/" class="dropdown-item">Jenkins</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Observability</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../more/observability/what-is-observability/" class="dropdown-item">What is Observability</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Security</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../more/security/cybersecurity-notes/" class="dropdown-item">Cybersecurity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../more/tools/tooling/" class="dropdown-item">List-of-Tools</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#cloud-computing-concepts" class="nav-link">Cloud Computing Concepts.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="cloud-computing-concepts">Cloud Computing Concepts.</h1>
+<hr />
+<pre><code class="language-text">1. Q: What is Cloud Computing?
+A: Cloud computing is a technology that allows users to access and use 
+computing resources, such as servers, storage, databases, and networking, 
+over the internet on a pay-as-you-go basis.
+</code></pre>
+<pre><code class="language-text">2. Q: What are the three main service models in cloud computing?
+   A: The three main service models are:
+
+    Infrastructure as a Service (IaaS)
+    Platform as a Service (PaaS)
+    Software as a Service (SaaS)
+
+
+</code></pre>
+<pre><code class="language-text">Difference between horizontal and vertical scaling.
+--
+Horizontal scaling involves adding more machines in a network, 
+while vertical scaling involves increasing the resources (CPU, RAM) 
+of an existing machine.
+</code></pre>
+<pre><code class="language-text">What is High Availability (HA) in the context of cloud computing?
+--
+High Availability refers to the ability of a system to remain 
+operational and accessible even in the face of hardware or software failures.
+</code></pre>
+<pre><code class="language-text">What is the difference between a public cloud and a private cloud?
+--
+Public clouds are owned and operated by third-party cloud service providers, 
+while private clouds are owned and operated by a single organization.
+</code></pre>
+<pre><code class="language-text">What is serverless computing?
+--
+Serverless computing is a cloud computing model where the cloud provider 
+manages the infrastructure, allowing developers to focus on 
+writing code without worrying about server management.
+</code></pre>
+<pre><code class="language-text">What is the CAP theorem in distributed systems?
+--
+The CAP theorem states that in a distributed system, 
+you can have at most two out of three guarantees: 
+Consistency, Availability, and Partition Tolerance.
+</code></pre>
+<pre><code class="language-text">Explain what a container is and how it differs from virtualization.
+--
+Containers are lightweight, portable, and isolated environments for 
+running applications. Unlike virtualization, they share the host OS kernel, 
+making them more efficient.
+</code></pre>
+<pre><code class="language-text">What is Kubernetes, and why is it used?
+--
+Kubernetes is an open-source container orchestration platform 
+used to automate the deployment, scaling, and management of 
+containerized applications.
+</code></pre>
+<pre><code class="language-text">What is Infrastructure as Code (IaC)?
+--
+Infrastructure as Code is the practice of managing and 
+provisioning infrastructure using code and automation tools, 
+such as Terraform or Ansible.
+</code></pre>
+<pre><code class="language-text">
+How do you ensure data security and compliance in the cloud?
+--
+Data security and compliance in the cloud can be ensured through 
+encryption, access controls, regular audits, and compliance with 
+industry standards (e.g., GDPR, HIPAA).
+</code></pre>
+<pre><code class="language-text">What is a Load Balancer, and why is it important in a cloud environment?
+--
+A Load Balancer distributes incoming network traffic across multiple 
+servers to ensure high availability, scalability, and optimal performance.
+</code></pre>
+<pre><code class="language-text">13. Q: What are Auto Scaling groups, and how do they work in AWS?
+A: Auto Scaling groups automatically adjust the number of instances 
+in a fleet to maintain application availability and handle varying workloads.
+</code></pre>
+<pre><code class="language-text">Explain the concept of microservices architecture.
+--
+Microservices architecture is an approach to software development 
+where applications are broken down into small, independently deployable 
+services that communicate over APIs.
+</code></pre>
+<pre><code class="language-text">What is Continuous Integration (CI) and Continuous Deployment (CD)?
+--
+CI is the practice of regularly integrating code changes into a shared 
+repository, while CD automates the deployment of code changes to 
+production environments.
+</code></pre>
+<pre><code class="language-text">How do you monitor and troubleshoot a cloud-based application effectively?
+--
+Effective monitoring involves using tools like Prometheus, Grafana, 
+and cloud provider-specific solutions to collect and analyze metrics, logs, and traces.
+</code></pre>
+<pre><code class="language-text">What is DevOps, and how does it relate to cloud engineering?
+--
+DevOps is a cultural and technical practice that promotes collaboration 
+between development and operations teams to automate and streamline the 
+software delivery process in the cloud.
+</code></pre>
+<pre><code class="language-text">What are the key components of a well-architected cloud application?
+--
+Key components include reliability, security, performance efficiency, 
+cost optimization, and operational excellence.
+</code></pre>
+<pre><code class="language-text">How can you optimize costs in the cloud?
+--
+Cost optimization involves rightsizing resources, using reserved instances, 
+leveraging serverless computing, and implementing cost monitoring and alerting.
+</code></pre>
+<pre><code class="language-text">Describe a recent cloud project you worked on and the challenges you faced.
+--
+Provide a detailed example of a cloud project, including the technologies used, 
+challenges encountered, and how you addressed them.
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

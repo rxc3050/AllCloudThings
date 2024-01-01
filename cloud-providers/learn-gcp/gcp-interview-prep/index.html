@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../favicon.ico">
+        
+        <title>GCP-Interview-Prep - AllCloudThings</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">AllCloudThings</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Cloud-Providers <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Learn-aws</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../learn-aws/aws-interview-prep/" class="dropdown-item">AWS-Interview-Prep</a>
+</li>
+            
+<li>
+    <a href="../../learn-aws/aws-services/" class="dropdown-item">AWS-Services</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Learn-GCP</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active">GCP-Interview-Prep</a>
+</li>
+            
+<li>
+    <a href="../gcp-services/" class="dropdown-item">GCP-Services</a>
+</li>
+            
+<li>
+    <a href="../services-in-gcp/" class="dropdown-item">GCP-Offerings</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Learn-Azure</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../learn-azure/azure-notes/" class="dropdown-item">Azure-Notes</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Infra-as-Code <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../infra-as-code/infra-as-code.md" class="dropdown-item">Infra-as-Code</a>
+</li>
+                                    
+<li>
+    <a href="../../../infra-as-code/ansible/" class="dropdown-item">Ansible</a>
+</li>
+                                    
+<li>
+    <a href="../../../infra-as-code/pulumi/" class="dropdown-item">Pulumi</a>
+</li>
+                                    
+<li>
+    <a href="../../../infra-as-code/terraform/" class="dropdown-item">Terraform</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Containers <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Kubernetes</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../containers/kubernetes/what-is-kubernetes/" class="dropdown-item">K8s-Overview</a>
+</li>
+            
+<li>
+    <a href="../../../containers/kubernetes/k8s-cheat-sheet/" class="dropdown-item">k8s-cheat-sheet</a>
+</li>
+            
+<li>
+    <a href="../../../containers/kubernetes/frontend-app-example/" class="dropdown-item">Frontend-app-example</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../../../containers/docker/what-is-docker/" class="dropdown-item">Docker</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">CI-CD</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../more/ci-cd/what-is-jenkins/" class="dropdown-item">Jenkins</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Observability</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../more/observability/what-is-observability/" class="dropdown-item">What is Observability</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Security</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../more/security/cybersecurity-notes/" class="dropdown-item">Cybersecurity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../more/tools/tooling/" class="dropdown-item">List-of-Tools</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../learn-aws/aws-services/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../gcp-services/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#google-cloud-platform-gcp-services" class="nav-link">Google Cloud Platform (GCP) Services</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="google-cloud-platform-gcp-services">Google Cloud Platform (GCP) Services</h2>
+<h6 id="what-is-the-difference-between-public-private-and-hybrid-clouds">What is the difference between public, private, and hybrid clouds?</h6>
+<pre><code>   - Public Cloud: Operated by third-party providers and accessible over the internet by the general public.
+   - Private Cloud: Used exclusively by a single organization, providing more control and security.
+   - Hybrid Cloud: Combines both public and private clouds, allowing data and applications to be shared between them.
+</code></pre>
+<h6 id="explain-the-concept-of-elasticity-in-cloud-computing">Explain the concept of elasticity in cloud computing.</h6>
+<pre><code>Elasticity refers to the ability to scale computing resources up or down
+dynamically based on demand. It allows you to efficiently use resources and
+handle varying workloads without manual intervention.
+</code></pre>
+<h6 id="what-is-the-cap-theorem-and-why-is-it-relevant-in-distributed-systems">What is the CAP theorem, and why is it relevant in distributed systems?</h6>
+<pre><code>The CAP theorem states that in a distributed system, you can have at most 
+two out of three guarantees: Consistency, Availability, and Partition Tolerance. 
+It is relevant in designing distributed systems for trade-offs between these guarantees.
+</code></pre>
+<h6 id="how-does-serverless-computing-differ-from-traditional-server-based-computing">How does serverless computing differ from traditional server-based computing?</h6>
+<pre><code>Serverless computing abstracts server management from developers, 
+allowing them to focus on code. In traditional server-based computing, 
+developers must manage servers, whereas serverless platforms handle server provisioning 
+and scaling automatically.
+</code></pre>
+<h6 id="what-are-containers-and-how-do-they-differ-from-virtual-machines">What are containers, and how do they differ from virtual machines?</h6>
+<pre><code>Containers are lightweight, isolated environments for running applications. 
+They share the host OS kernel, making them more efficient than virtual machines, 
+which run full OS instances.
+</code></pre>
+<h6 id="what-is-orchestration-in-the-context-of-containerization-and-why-is-it-important">What is orchestration in the context of containerization, and why is it important?</h6>
+<pre><code>Orchestration is the automated management of containerized applications. 
+Tools like Kubernetes help with tasks such as deployment, scaling, load balancing, 
+and service discovery, ensuring reliable container management.
+</code></pre>
+<h6 id="explain-infrastructure-as-code-iac-and-its-benefits">Explain Infrastructure as Code (IaC) and its benefits.</h6>
+<pre><code>IaC is the practice of managing and provisioning infrastructure using code. 
+It provides benefits like version control, repeatability, and the ability to 
+automate infrastructure changes.
+</code></pre>
+<h6 id="how-do-you-ensure-data-security-in-the-cloud-and-what-is-encryption-key-management">How do you ensure data security in the cloud, and what is encryption key management?</h6>
+<pre><code>Data security in the cloud involves encryption, access controls, and regular audits. 
+Encryption key management refers to securely generating, storing, 
+and managing encryption keys to protect data.
+</code></pre>
+<h6 id="what-is-devops-and-how-does-it-relate-to-cloud-engineering">What is DevOps, and how does it relate to cloud engineering?</h6>
+<pre><code>DevOps is a cultural and technical practice that promotes collaboration 
+between development and operations teams. In the cloud, DevOps principles 
+are applied to automate and streamline software delivery and infrastructure management.
+</code></pre>
+<h6 id="what-are-aws-well-architected-framework-pillars-and-why-are-they-important">What are AWS Well-Architected Framework pillars, and why are they important?</h6>
+<pre><code>The Well-Architected Framework includes pillars such as Security, Reliability, 
+Performance Efficiency, Cost Optimization, and Operational Excellence. 
+They provide best practices for building reliable and efficient cloud architectures.
+</code></pre>
+<h6 id="how-do-you-optimize-costs-in-the-cloud-environment">How do you optimize costs in the cloud environment?</h6>
+<pre><code>Cost optimization involves rightsizing resources, using reserved instances, 
+leveraging serverless computing, implementing cost monitoring and alerting, 
+and continuously analyzing usage patterns.
+</code></pre>
+<h6 id="what-is-a-load-balancer-and-why-is-it-important-in-a-cloud-based-application">What is a load balancer, and why is it important in a cloud-based application?</h6>
+<pre><code>A load balancer distributes incoming network traffic across multiple servers 
+to ensure high availability, scalability, and optimal performance for cloud-based applications.
+</code></pre>
+<h6 id="describe-the-process-of-disaster-recovery-planning-in-the-cloud">Describe the process of disaster recovery planning in the cloud.</h6>
+<pre><code>Disaster recovery planning in the cloud involves data backups, redundancy, 
+and automated failover mechanisms to ensure business continuity in case of unforeseen events.
+</code></pre>
+<h6 id="how-do-you-monitor-and-troubleshoot-a-cloud-based-application-effectively">How do you monitor and troubleshoot a cloud-based application effectively?</h6>
+<pre><code>Effective monitoring involves using tools like CloudWatch, 
+Prometheus, Grafana, and cloud provider-specific solutions to 
+collect and analyze metrics, logs, and traces for timely troubleshooting.
+</code></pre>
+<h6 id="what-are-the-key-differences-between-serverless-computing-and">What are the key differences between serverless computing and  <br /></h6>
+<h6 id="traditional-server-based-approaches-for-scalability">traditional server-based approaches for scalability?</h6>
+<pre><code>Serverless computing automatically scales resources based on demand, 
+while traditional server-based approaches often require manual provisioning and scaling of servers.
+</code></pre>
+<h6 id="explain-the-concept-of-multi-cloud-strategy-and-its-benefits">Explain the concept of multi-cloud strategy and its benefits.</h6>
+<pre><code>A multi-cloud strategy involves using multiple cloud providers to reduce 
+vendor lock-in and increase redundancy. It provides flexibility, 
+cost optimization, and disaster recovery options.
+</code></pre>
+<h6 id="how-does-a-content-delivery-network-cdn-improve-the-performance-of-web-applications">How does a content delivery network (CDN) improve the performance of web applications?</h6>
+<pre><code>CDNs cache content at edge locations closer to end-users, reducing latency 
+and improving the speed and availability of web applications.
+</code></pre>
+<h6 id="what-is-the-shared-responsibility-model-in-cloud-security">What is the shared responsibility model in cloud security?</h6>
+<pre><code>The shared responsibility model defines the security responsibilities 
+between the cloud provider (e.g., AWS, Azure, GCP) and the customer. 
+The provider is responsible for securing the infrastructure, 
+while the customer is responsible for securing their data and applications.
+</code></pre>
+<h6 id="what-are-the-advantages-of-using-container-orchestration-platforms-like-kubernetes">What are the advantages of using container orchestration platforms like Kubernetes?</h6>
+<pre><code>Container orchestration platforms automate container deployment, 
+scaling, and management, providing benefits like high availability, 
+resource optimization, and simplified application scaling.
+</code></pre>
+<h6 id="can-you-explain-how-cloud-native-development-differs-from-traditional-application-development">Can you explain how cloud-native development differs from traditional application development?</h6>
+<pre><code>Cloud-native development involves designing applications specifically 
+for cloud environments, focusing on microservices, serverless architecture, 
+and containerization for flexibility and scalability.
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="../../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
