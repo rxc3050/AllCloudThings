@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../favicon.ico">
+        
+        <title>What is Observability - AllCloudThings</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">AllCloudThings</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Cloud-Providers <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Learn-aws</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../cloud-providers/learn-aws/aws-interview-prep/" class="dropdown-item">AWS-Interview-Prep</a>
+</li>
+            
+<li>
+    <a href="../../../cloud-providers/learn-aws/aws-services/" class="dropdown-item">AWS-Services</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Learn-GCP</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../cloud-providers/learn-gcp/gcp-interview-prep/" class="dropdown-item">GCP-Interview-Prep</a>
+</li>
+            
+<li>
+    <a href="../../../cloud-providers/learn-gcp/gcp-services/" class="dropdown-item">GCP-Services</a>
+</li>
+            
+<li>
+    <a href="../../../cloud-providers/learn-gcp/services-in-gcp/" class="dropdown-item">GCP-Offerings</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Learn-Azure</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../cloud-providers/learn-azure/azure-notes/" class="dropdown-item">Azure-Notes</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Infra-as-Code <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../infra-as-code/infra-as-code.md" class="dropdown-item">Infra-as-Code</a>
+</li>
+                                    
+<li>
+    <a href="../../../infra-as-code/ansible/" class="dropdown-item">Ansible</a>
+</li>
+                                    
+<li>
+    <a href="../../../infra-as-code/pulumi/" class="dropdown-item">Pulumi</a>
+</li>
+                                    
+<li>
+    <a href="../../../infra-as-code/terraform/" class="dropdown-item">Terraform</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Containers <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Kubernetes</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../containers/kubernetes/what-is-kubernetes/" class="dropdown-item">K8s-Overview</a>
+</li>
+            
+<li>
+    <a href="../../../containers/kubernetes/k8s-cheat-sheet/" class="dropdown-item">k8s-cheat-sheet</a>
+</li>
+            
+<li>
+    <a href="../../../containers/kubernetes/frontend-app-example/" class="dropdown-item">Frontend-app-example</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../../../containers/docker/what-is-docker/" class="dropdown-item">Docker</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">CI-CD</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../ci-cd/what-is-jenkins/" class="dropdown-item">Jenkins</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Observability</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active">What is Observability</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Security</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../security/cybersecurity-notes/" class="dropdown-item">Cybersecurity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tools</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../tools/tooling/" class="dropdown-item">List-of-Tools</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../ci-cd/what-is-jenkins/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../security/cybersecurity-notes/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#observability-monitoring" class="nav-link">Observability &amp; Monitoring</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#observability-monitoring_1" class="nav-link">Observability &amp; Monitoring</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#logs-vs-metrics-vs-traces" class="nav-link">Logs vs Metrics vs Traces</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#logging-level" class="nav-link">Logging Level</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#userful-links" class="nav-link">Userful Links</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="observability-monitoring">Observability &amp; Monitoring</h1>
+<ul>
+<li>Observability 
+    <code>Collection --&gt; Monitoring --&gt; Analyze</code> </li>
+</ul>
+<h2 id="observability-monitoring_1">Observability &amp; Monitoring</h2>
+<pre><code>Observability &amp; Monitoring
+--------------------------
+- Observability refers to the ability to measure and observe the 
+internal state of a software system through data like metrics, logs, and traces. 
+It provides visibility into a system's behavior to more easily monitor and 
+troubleshoot issues.
+
+- Monitoring involves collecting metrics and data on a system's performance and health. 
+It allows detecting problems and setting alerts around critical events. 
+Effective monitoring is key for identifying and diagnosing issues promptly.
+
+Logging
+---------
+Logging refers to recording meaningful events within an 
+application's code during execution. Logs provide insights into 
+system operations, errors, and user activities. Log data is essential 
+for monitoring and observability.
+
+Tracing 
+---------
+Tracing follows the path of a request through all the microservices, 
+servers, and processes that handle parts of that request. 
+Tracing distributed transactions helps pinpoint performance bottlenecks and failures.
+
+Metrics
+---------
+Metrics represent measurements and counts of key activities 
+and resources within a system. They allow assessing overall health and 
+performance over time. Common metrics include response times, 
+error rates, resource usage etc.
+
+Alerting
+---------
+Alerting involves getting notifications when certain metrics 
+cross defined thresholds. This allows rapid awareness of problems so 
+corrective action can be taken. Alerts are triggered by monitoring systems 
+based on log, metric, and tracing data.
+</code></pre>
+<h2 id="logs-vs-metrics-vs-traces">Logs vs Metrics vs Traces</h2>
+<pre><code class="language-text">Metrics:
+--------
+The purpose of metrics is to inform observers about the health &amp; operations 
+regarding a component or system. A metric represents a point in time measure 
+of a particular source, and data-wise tends to be very small. 
+The compact size allows for efficient collection even at scale in large systems. 
+Metrics also lend themselves very well to pre-aggregation within the 
+component before collection, reducing computation cost for processing &amp; storing
+large numbers of metric time series in a central system. Due to how efficiently 
+metrics are processed &amp; stored, it lends itself very well for use in automated 
+alerting, as metrics are an excellent source for the health data for 
+all components in the system.
+
+Logs:
+-----
+Log data inform observers about the discrete events that occurred 
+within a component or a set of components. Just about every software component 
+log information about its activities over time. This rich data tends to be 
+much larger than metric data and can cause processing issues, especially 
+if components are logging too verbosely. Therefore, using log data to 
+understand the health of an extensive system tends to be avoided and 
+depends on metrics for that data. Once metric telemetry highlights 
+potential problem sources, filtered log data for those sources 
+can be used to understand what occurred.
+
+Traces:
+-------
+Where logging provides an overview to a discrete, event-triggered log, 
+tracing encompasses a much wider, continuous view of an application. 
+The goal of tracing is to following a program’s flow and data progression.
+
+In many instances, tracing represents a single user’s journey 
+through an entire app stack. Its purpose isn’t reactive, but 
+instead focused on optimization. By tracing through a stack, 
+developers can identify bottlenecks and focus on improving performance.
+
+A distributed trace is defined as a collection of spans. 
+A span is the smallest unit in a trace and represents a 
+piece of the workflow in a distributed landscape. 
+It can be an HTTP request, call to a database, or execution of a 
+message from a queue.
+
+When a problem does occur, tracing allows you to see how you got there:
+
+Which function.
+The function’s duration.
+Parameters passed.
+How deep into the function the user could get.
+</code></pre>
+<h2 id="logging-level">Logging Level</h2>
+<pre><code class="language-text">A log level indicates the importance of a log message. 
+It allows you to filter critical information from noise. 
+Log levels originated in the 1980s with syslog for Unix. 
+    Syslog defined severity levels like 
+        -Emergency, 
+        -Alert, 
+        -Critical, 
+        -Error, 
+        -Warning, 
+        -Notice, 
+        -Informational,
+        -Debug. 
+These are now standard log levels used across many programming languages 
+and logging frameworks.
+
+Log levels help reduce information overload and alarm fatigue. 
+Looking at the severity level first tells you if a log requires immediate action. 
+Proper use of log levels separates high priority alerts from routine diagnostic info.
+
+Modern frameworks allow logging data in formats like JSON. 
+Logs can be sent to various destinations beyond syslog, like files or Elasticsearch. 
+But most retain the concept of log levels to indicate event importance. 
+The hierarchy from Emergency to Debug helps flag the most urgent system issues 
+versus detailed tracing. 
+Appropriate log levels improve monitoring and observability by controlling the 
+verbosity and contents of log output.
+</code></pre>
+<pre><code class="language-text">- Log-Level Hierarchy
+    - in most logging frameworks following are some of the log levels:
+        - TRACE
+        - DEBUG
+        - INFO
+        - WARN
+        - ERROR
+        - FATAL
+
+</code></pre>
+<h2 id="userful-links">Userful Links</h2>
+<ul>
+<li>Observability-Tools<ul>
+<li><a href="../../tools/tooling/">tooling</a></li>
+</ul>
+</li>
+<li>
+<p>log-level hierarchy</p>
+<ul>
+<li><a href="https://sematext.com/blog/logging-levels/#:~:text=You%20can%20expect%20the%20TRACE,with%20parameters%20in%20your%20code.&amp;text=INFO%20%E2%80%93%20the%20standard%20log%20level,entered%20a%20certain%20state%2C%20etc.">log-levels</a></li>
+</ul>
+</li>
+<li>
+<p>Metrics vs logs vs traces: </p>
+<ul>
+<li><a href="https://microsoft.github.io/code-with-engineering-playbook/observability/log-vs-metric-vs-trace/">logsvsmetricsvstrace</a></li>
+</ul>
+</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="../../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
