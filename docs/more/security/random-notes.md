@@ -1,3 +1,30 @@
+
+Best Practices for API Key Safety
+Updated this week
+1. Always use a unique API key for each team member on your account. 
+An API key is a unique code that identifies your requests to the API. Your API key is intended to be used by you. The sharing of API keys is against the Terms of Use.
+
+ 
+
+As you begin experimenting, you may want to expand API access to your team. OpenAI does not support the sharing of API keys. Please invite new members to your account from the Members page and they will quickly receive their own unique key upon sign-in. You can assign permissions to individual API keys as well.
+
+ 
+
+2. Never deploy your key in client-side environments like browsers or mobile apps.
+Exposing your OpenAI API key in client-side environments like browsers or mobile apps allows malicious users to take that key and make requests on your behalf – which may lead to unexpected charges or compromise of certain account data. Requests should always be routed through your own backend server where you can keep your API key secure.
+
+ 
+
+3. Never commit your key to your repository
+Committing an API key to source code is a common vector for credential compromise. For those with public repositories, this is a common way that you can unknowingly share your key with the internet. Private repositories are more secure, but a data breach can also result in your keys being leaked. For these reasons we strongly recommend the use of the environment variables as a proactive key safety measure.
+
+ 
+
+4. Use Environment Variables in place of your API key
+An environment variable is a variable that is set on your operating system, rather than within your application. It consists of a name and value.We recommend that you set the name of the variable to OPENAI_API_KEY. By keeping this variable name consistent across your team, you can commit and share your code without the risk of exposing your API key.
+
+ 
+
 Linux / MacOS Set-up
 
 Option 1: Set your ‘OPENAI_API_KEY’ Environment Variable using zsh
